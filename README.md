@@ -1,5 +1,23 @@
 # sem_2_labs
 
+<div class="body">
+        <div class="body__head">
+          <div class="body__hair"></div>
+        </div>
+        <div class="body__arms">
+          <div class="body__arms-left"></div>
+            <div class="body__arms-left__finger"></div>
+          <div class="body__arms-right"></div>
+            <div class="body__arms-right__finger"></div>
+        </div>
+        <div class="body__legs">
+          <div class="body__legs-shoes"></div>
+            <div class="body__legs-shoes__black"></div>
+          <div class="body__legs-pants"></div>
+            <div class="body__legs-pants__blue"></div>
+        </div>
+      </div>
+
 ## FORM
 ```
 form>label+(select[type="text" name="input"]>option.option$*3)*2+(label+input[type="text" name="input"])*3+button[type="submit" value="Submit"]
