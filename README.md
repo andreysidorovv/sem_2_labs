@@ -1,25 +1,44 @@
 # sem_2_labs
+```
+<div class="body">
+        <div class="body__head">
+          <div class="body__hair"></div>
+        </div>
+        <div class="body__arms">
+          <div class="body__arms-left"></div>
+            <div class="body__arms-left__finger"></div>
+          <div class="body__arms-right"></div>
+            <div class="body__arms-right__finger"></div>
+        </div>
+        <div class="body__legs">
+          <div class="body__legs-shoes"></div>
+            <div class="body__legs-shoes__black"></div>
+          <div class="body__legs-pants"></div>
+            <div class="body__legs-pants__blue"></div>
+        </div>
+      </div>
+```
 
 ## FORM
 ```
-form>label+(select[type="text" name="input"]>option.option$*3)*2+(label+input[type="text" name="input"])*3+button[type="submit" value="Submit"]
+h2.description+form.form>(label.form__label+select.form__select[name="input"]>option.option$*3)*2+(label.form__label+input.form__input[type="text"  name="input"])*3+button.form__button[type="submit"]
 ```
 ![FROM](./pic/form.png)
 
-## NAV
+## HEADER
 ```
-img.pic+nav.navigation>ul.navigation__list>li.navigation__list-item*6
+header.header>(a.header__link>img.header__pic)+nav.header__navigation>ul.header__navigation__list>(li.navigation__item>a.navigation__link)*6
 ```
 ![Снимок экрана 2023-03-04 133808](https://user-images.githubusercontent.com/113594587/222895433-53d29a36-a1bd-47eb-aa00-682ecae9924c.png)
 
 ## CARD
 ```
-h2+ul.card>(li.card__list>p.card__list-item+button.button)*3
+h2+ul.cards>(li.cards__card>(p.cards__description)*2+button.cards__button+img.cards__pic)*3
 ```
 ![Снимок экрана 2023-03-04 134117](https://user-images.githubusercontent.com/113594587/222895484-8c43b2c1-ea5c-4566-ad27-ec2e972aac4a.png)
 
 ## FOOTER
 ```
-footer.footer>(ul.footer__list>li.footer__list-item$*3)+p.footer__p
+footer.footer>(ul.footer__list>li.footer__logo+li.footer__contacts+li.footer__mail)+p.footer__policy
 ```
 ![Снимок экрана 2023-03-04 134128](https://user-images.githubusercontent.com/113594587/222895480-19ad920f-22ca-47ef-a187-0c7a5c3a309d.png)
