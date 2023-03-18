@@ -23,7 +23,7 @@
 
 ## FORM
 ```
-h2.description+form.form>(label.form__label+select.form__select[name="input"]>option.option$*3)*2+(label.form__label+input.form__input[type="text"  name="input"])*3+button.form__button[type="submit"]
+h2.form__description+form.form>(label.form__label+select.form__select[name="input"]>option.option$*3)*2+(label.form__label+input.form__input[type="text"  name="input"])*3+button.form__button[type="submit"]
 ```
 ![FROM](./pic/form.png)
 
@@ -35,7 +35,7 @@ header.header>(a.header__link>img.header__pic)+nav.header__navigation>ul.header_
 
 ## CARD
 ```
-h2+ul.cards>(li.cards__card>(p.cards__description)*2+button.cards__button+img.cards__pic)*3
+h2.cards__heading+ul.cards>(li.cards__card>(p.cards__description)*2+button.cards__button+img.cards__pic)*3
 ```
 ![Снимок экрана 2023-03-04 134117](https://user-images.githubusercontent.com/113594587/222895484-8c43b2c1-ea5c-4566-ad27-ec2e972aac4a.png)
 
