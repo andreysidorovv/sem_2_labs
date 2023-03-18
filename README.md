@@ -35,12 +35,12 @@ header.header>(a.header__link>img.header__pic)+nav.header__navigation>ul.header_
 
 ## CARD
 ```
-h2.cards__heading+ul.cards>(li.card>(p.card__description)*2+button.card__button+img.card__pic)*3
+h2.cards__heading+ul.cards>(li.card>(p.card__description)*2+button.card__button>img.card__pic)*3
 ```
 ![Снимок экрана 2023-03-04 134117](https://user-images.githubusercontent.com/113594587/222895484-8c43b2c1-ea5c-4566-ad27-ec2e972aac4a.png)
 
 ## FOOTER
 ```
-footer.footer>(ul.footer__list>li.footer__logo+li.footer__contacts+li.footer__mail)+p.footer__policy
+footer.footer>(ul.footer__list>li.footer__logo>a.footer__logo_link>img.footer__logo_img+li.footer__contacts+li.footer__mail)+p.footer__policy
 ```
 ![Снимок экрана 2023-03-04 134128](https://user-images.githubusercontent.com/113594587/222895480-19ad920f-22ca-47ef-a187-0c7a5c3a309d.png)
