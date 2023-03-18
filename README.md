@@ -8,34 +8,34 @@
         </div>
         <div class="body__arms">
           <div class="body__arms-left"></div>
-            <div class="body__arms-left__finger"></div>
+            <div class="arms-left__finger"></div>
           <div class="body__arms-right"></div>
-            <div class="body__arms-right__finger"></div>
+            <div class="arms-right__finger"></div>
         </div>
         <div class="body__legs">
           <div class="body__legs-shoes"></div>
-            <div class="body__legs-shoes__black"></div>
+            <div class="body__legs-shoes_color_black"></div>
           <div class="body__legs-pants"></div>
-            <div class="body__legs-pants__blue"></div>
+            <div class="body__legs-pants_color_blue"></div>
         </div>
       </div>
 ```
 
 ## FORM
 ```
-h2.form__description+form.form>(label.form__label+select.form__select[name="input"]>option.option$*3)*2+(label.form__label+input.form__input[type="text"  name="input"])*3+button.form__button[type="submit"]
+h2.description+form.form>(label.form__label+select.form__select[name="input"]>option.option$*3)*2+(label.form__label+input.form__input[type="text"  name="input"])*3+button.form__button[type="submit"]
 ```
 ![FROM](./pic/form.png)
 
 ## HEADER
 ```
-header.header>(a.header__link>img.header__pic)+nav.header__navigation>ul.header__navigation__list>(li.navigation__item>a.navigation__link)*6
+header.header>(a.header__link>img.header__pic)+nav.header__navigation>ul.header__navigation_list>(li.navigation__item>a.navigation__link)*6
 ```
 ![Снимок экрана 2023-03-04 133808](https://user-images.githubusercontent.com/113594587/222895433-53d29a36-a1bd-47eb-aa00-682ecae9924c.png)
 
 ## CARD
 ```
-h2.cards__heading+ul.cards>(li.cards__card>(p.cards__description)*2+button.cards__button+img.cards__pic)*3
+h2.cards__heading+ul.cards>(li.card>(p.card__description)*2+button.card__button+img.card__pic)*3
 ```
 ![Снимок экрана 2023-03-04 134117](https://user-images.githubusercontent.com/113594587/222895484-8c43b2c1-ea5c-4566-ad27-ec2e972aac4a.png)
 
