@@ -29,7 +29,7 @@ h2.description+form.form>(label.form__label+select.form__select[name="input"]>op
 
 ## HEADER
 ```
-header.header>(a.header__link>img.header__pic)+nav.header__navigation>ul.header__navigation_list>(li.navigation__item>a.navigation__link)*6
+header.header>(a.header__link>img.header__pic)+nav.navigation>ul.navigation__list>(li.navigation__item>a.navigation__link)*6
 ```
 ![Снимок экрана 2023-03-04 133808](https://user-images.githubusercontent.com/113594587/222895433-53d29a36-a1bd-47eb-aa00-682ecae9924c.png)
 
